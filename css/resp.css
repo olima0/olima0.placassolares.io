@@ -1,0 +1,48 @@
+@media(max-width:1261px) {
+    main {
+        width: 90%;
+        padding-bottom: 12px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    main nav {
+        align-items: center;
+    }
+}
+@media(max-width:800px){
+    header{
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+    main{
+        padding-top: 2.7rem;
+    }
+
+}
+@media(max-width:600px) {
+    main {
+        width: 99%;
+    }
+
+    body {
+        font-size: 1rem;
+    } 
+    main nav {
+        height: 50%;
+        width: 50%;
+    }
+}
+
+@media(max-width:400px) {
+    body {
+        font-size: 0.7rem;
+    }
+
+    main nav {
+        right: 6px;
+        top: 25px;;
+    }
+}
